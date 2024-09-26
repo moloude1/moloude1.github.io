@@ -1,0 +1,96 @@
+body {
+	background-color: #555;
+	background-image: url("images/bg-image.jpg");
+}
+
+#frame {
+	max-width: 900px;
+	margin: 30px auto;
+	background-color: white;
+	border: 3px solid #ffc125;
+}
+
+#banner {
+	position: relative;	/* relative to <body> */
+	width: 100%;
+	height: 85px;
+	background-color: #000;
+}
+
+#umbc_logo a {
+	position: absolute;	/* relative to banner */
+	left: 12px;
+	top: 14px;
+	height: 57px;
+	width: 247px;
+	background-image: url("images/umbc-shield-logo.png");
+	background-repeat: no-repeat; 
+}
+
+#umbc_logo a:focus {
+	outline: 0;
+}
+
+#math_stat_logo {
+	position: absolute;	/* relative to banner */
+	right: 20px;
+	bottom: 10px;
+	font-size: 110%;
+}
+
+#math_stat_logo a {
+	outline: 0;
+}
+
+#math_stat_logo a {
+	color: #f00;
+}
+
+#myname {
+	background-color: #99310e;
+	color: #fff;
+	font-size: 180%;
+	font-weight: bold;
+	padding: 20px 10px;
+	margin: 0;
+}
+
+#content {
+	margin: 0;
+	padding: 2em 2em 1em 2em;
+	line-height: 160%;
+	background-color: white;
+}
+
+#myphoto {
+	float: right;
+	background: url("images/my-photo.jpg");
+	width: 192px;
+	/* height: 240px; */
+	height: 192px;
+	margin: 15px;
+	border-radius: 10px;
+	box-shadow: 5px 5px 10px grey;
+}
+
+#content li {
+	margin-bottom: 0.5em;
+}
+
+#content p {
+	text-align: justify;
+}
+
+dt {
+	font-weight: bold;
+}
+
+dd {
+	margin-bottom: 1ex;
+}
+
+a:link, a:visited {
+	text-decoration: none;
+	color: #065388;
+}
+
